@@ -6,4 +6,7 @@ repository is a place where all the files are found whether it is tracked or not
 Staging area is an area where all the files in respository after they were added to be tracked by git can be found.
 Where as working directory works only with already tracked files.
 
+How can you use the staging area to make sure you have one commit per logical change?
+To make sure one commit is made per a logical change make sure to save changes and use git add command right after any logical changes made and also give a understandable message.
+
 
