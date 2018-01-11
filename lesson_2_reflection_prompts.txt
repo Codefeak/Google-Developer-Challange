@@ -1,4 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 A .git hidden folder is formed inside the working directory. To initialize a respository we need to run git init command.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+repository is a place where all the files are found whether it is tracked or not by git. 
+Staging area is an area where all the files in respository after they were added to be tracked by git can be found.
+Where as working directory works only with already tracked files.
+
 
