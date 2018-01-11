@@ -11,3 +11,6 @@ To make sure one commit is made per a logical change make sure to save changes a
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 If we want a different version of the file or a test a file with some logics both original and changed one branches can be more helpful rather than changing back to previous version. 
+
+How do the diagrams help you visualize the branch structure?
+It keep tracks of which branch we are working with and where we made a commit, so if we are working with a 'detached head', before all our effort go waster we can always created a new branch and commit the changes in that branch using git checkout -b newBranchName.
