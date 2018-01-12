@@ -14,3 +14,12 @@ If we want a different version of the file or a test a file with some logics bot
 
 How do the diagrams help you visualize the branch structure?
 It keep tracks of which branch we are working with and where we made a commit, so if we are working with a 'detached head', before all our effort go waster we can always created a new branch and commit the changes in that branch using git checkout -b newBranchName.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging
+Pros :Easy to use, less time consuming
+Cons : If a file is always automatically edited then there might occurs time when the edited code stops working at all due to multiple editing and overlapping logics.
+Manual merging
+Pros: Secured that the code will always work.
+cons: time consuming and if a multiple logics were used by multiple person while merging error might occurs as it is still trobulesome to find out the correct working codes or which logics to keep and which to throw out.
