@@ -1,0 +1,25 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git hidden folder is formed inside the working directory. To initialize a respository we need to run git init command.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+repository is a place where all the files are found whether it is tracked or not by git. 
+Staging area is an area where all the files in respository after they were added to be tracked by git can be found.
+Where as working directory works only with already tracked files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+To make sure one commit is made per a logical change make sure to save changes and use git add command right after any logical changes made and also give a understandable message.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If we want a different version of the file or a test a file with some logics both original and changed one branches can be more helpful rather than changing back to previous version. 
+
+How do the diagrams help you visualize the branch structure?
+It keep tracks of which branch we are working with and where we made a commit, so if we are working with a 'detached head', before all our effort go waster we can always created a new branch and commit the changes in that branch using git checkout -b newBranchName.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging
+Pros :Easy to use, less time consuming
+Cons : If a file is always automatically edited then there might occurs time when the edited code stops working at all due to multiple editing and overlapping logics.
+Manual merging
+Pros: Secured that the code will always work.
+cons: time consuming and if a multiple logics were used by multiple person while merging error might occurs as it is still trobulesome to find out the correct working codes or which logics to keep and which to throw out.
